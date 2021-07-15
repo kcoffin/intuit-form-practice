@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intuit sign-up</title>
+    <style>
+        body {
+            background: lightgray;
+            font-family: serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .top-heading {
+            text-align: center;
+            width: 25%;
+            background-color: lightgray;
+            margin: auto;
+            padding: 10px;
+
+        }
+        .sign-up-div {
+            background-color: white;
+            width: 400px;
+            margin: auto;
+            background-color: white;
+            font-family: arial;
+            padding: 10px;
+            border-width: 2px;
+    
+        }
+        #sub-button {
+            background-color: blue;
+        }
+
+        .logo-head {
+            font-family: monospace;
+            font-size: 25px;
+            color: rgb(49, 47, 47);
+        }
+    </style>
+</head>
+<body>
+    <!-- Top heading with logos -->
+    <div class="top-heading"> 
+        <p class="logo-head">Intuit</p>
+        <br>
+        <p><a href="#"> mint</a> <a href="#">quickbooks</a> <a href="#">turbotax</a></p>
+    </div>
+    
+    
+    <div class="sign-up-div">
+        <form action="#">
+            <p>Create an Intuit account</p>
+            <p>One account for everything Intuit, including Mint. <a href="#">Learn more</a></p>
+            <br>
+            <p>Email address</p>
+            <input type="text" name="email" id="email-address">
+            <br>
+            <p>Phone <span>(recommended)</span></p>
+            <input type="text" name="phone" id="phone-number">
+            <p><span class="disclaimer">Standard call, message, or data rates may apply.</span></p>
+            <br>
+            <p>Password</p>
+            <input type="password" name="password" id="password">
+            <br>
+            <p><input type="submit" name="subscribe" id="sub-button" value="Create Account"></p>
+            <p>By selecting Create Account, you agree to our <a href="#">Terms</a> and have read and acknowledged our <a href="#">Global Privacy Statement.</a></p>
+        </form>
+    </div>
+</body>
+</html>
